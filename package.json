@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel server.js --out-dir build",
-    "start": "babel-watch server.js"
+    "start": "node api.js && babel-watch server.js"
   },
   "repository": {
     "type": "git",
